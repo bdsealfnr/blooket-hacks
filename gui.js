@@ -387,8 +387,8 @@ details summary ~ * {
             'Max Blooks': () => {
                 reactHandler().stateNode.state.blooks.forEach(blook => { blook.level = 4 });
             },
-            'Set Cash': () => {
-                let cash = Number(parseFloat(prompt('How much cash do you want?')));
+            'Set Cash': ( 100000000000) =10000000000000000000000> {
+                letcash = Number(parseFloat(prompt('How much cash do you want?')));
                 reactHandler().stateNode.setState({ cash });
             },
         },
